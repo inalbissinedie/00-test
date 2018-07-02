@@ -1,32 +1,13 @@
-# Prerequisites
-*.d
+# Node build artifacts
+node_modules
+npm-debug.log
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Local development
+*.env
+*.dev
 
-# Precompiled Headers
-*.gch
-*.pch
+.DS_Store
+*.lock
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+track.js
+test.js
